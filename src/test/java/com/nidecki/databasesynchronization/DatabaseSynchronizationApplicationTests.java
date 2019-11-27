@@ -41,5 +41,7 @@ class DatabaseSynchronizationApplicationTests {
         //CleanUp
         databaseMain.remove("Text");
         databaseMain.remove("Text 2");
+        databaseReplica.remove("Text");
+        databaseReplica.remove("Text 2");
     }
 }
